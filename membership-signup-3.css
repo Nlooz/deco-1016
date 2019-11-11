@@ -1,0 +1,134 @@
+/* To structure the body and html */
+html,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: white;
+    color: #123c69;
+}
+
+/* Aligns the h1 element to the center */
+h1 {
+    text-align: center;
+}
+
+/* CSS to modify the "Vilates" home button */
+.header > .in-header>.header-title{
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: black;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 130px;
+}
+
+/* CSS to modify the "Vilates" home button when the mouse interacts with it */
+.header > .in-header >.header-title > a:link,a:visited{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:hover{
+    font-family: 'Playfair Display', serif;
+    color: rgb(37, 87, 252);
+    text-decoration: none;
+}
+
+/* CSS to modify the structure of the form class */
+form * {
+    box-sizing: border-box;
+}
+
+/* CSS to modify alignment and display of the form class */
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+}
+
+/* CSS to modify the "label" elements in the form class */
+form .form-group label {
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 120px;
+    max-width: 200px;
+}
+
+/* CSS to modify the "input" elements in the form class */
+form .form-group input {
+    display: flex;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 500px;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 500px;
+    height: 100px;
+    background-color: #edc7b7;
+    border: none;
+    border-radius: 50px;
+}
+
+/* CSS to modify the "back" button */
+.back-next-buttons > .back , .next{
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center;
+
+}
+
+/* CSS to modify the "next" button */
+.back-next-buttons >.next {
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center; 
+    margin-left: auto;
+    margin-bottom: 50px;
+} 
+
+/* CSS for when the mouse interacts with the "back" button */
+.back-next-buttons > .back > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .back > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}
+
+/* CSS for when the mouse interacts with the "next" button */
+.back-next-buttons > .next > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .next > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}

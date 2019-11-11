@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway&display=swap" rel="stylesheet">
+     <link href="membership_signup_1.css" rel="stylesheet">
+</head>
+<body>
+     <!-- Progress bar shows how much the user has done and how much they have to do left -->
+     <div class="ldBar" data-value="0"></div>
+     <div id="progress-bar"></div>
+
+     <!-- Header containing interactive logo that takes them back to the homepage -->
+     <div class="grid-container">
+          <div class="header">
+               <div class="in-header">
+                    <div class="header-title"><a href = "index.html">Vilates</a></div>  
+               </div>
+          </div>
+
+          <!-- Users enter their personal details using the form inputs below -->
+          <div class="content">
+               <h1>Enter your details</h1>
+               <form>
+                    <div class="form-group">
+                         <label for="name">Name</label>
+                         <input type="text" id="name" name="name" placeholder="Enter your name here">
+                         <div class="messages"></div>
+                    </div>
+                    <div class="form-group">
+                         <label for="username">Username</label>
+                         <input type="text" id="username" name="username" placeholder="Enter your username here">
+                         <div class="messages"></div>
+                    </div>
+                    <div class="form-group">
+                         <label for="email">Email</label>
+                         <input type="email" id="email" name="email" placeholder="Enter your email here">
+                         <div class="messages"></div>
+                    </div>
+                    <div class="form-group">
+                         <label for="password">Password</label>
+                         <input type="password" id="password" name="password" placeholder="Enter your password here">
+                         <div class="messages"></div>
+                    </div>
+
+                    <div class="form-group">
+                         <button type="submit">Enter Details</button>
+                         <div class="messages"></div>
+                    </div>
+               </form>
+
+               <!-- Buttons are avaliable to the user to move to the next webpage or to move back to a previous webpage -->
+               <div class = "back-next-buttons">
+                    <div class = "back"><a href = "Membership_Login_sign_up.html">Back</a></div>
+                    <div class = "next"><a href = "Membership_sign_up_2.html">Next</div>
+               </div>
+          </div>
+     </div>
+
+<!-- JAVASCRIPT SCRIPTS BELOW -->
+<script type = "text/javascript" src="validator-membership-1.js"></script>
+<script type="text/javascript" src="loading-bar.js"></script>
+</body>
+</html>

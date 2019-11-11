@@ -1,0 +1,483 @@
+/*Resets default margins*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Sets the whole page's background colour and font colour */
+body {
+  background-color: white;
+  color: #123c69;
+}
+
+/* Sets style for "p" */
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
+
+/*Sets padding and border for elements and classes under the "main"*/
+main > div {
+  padding: 10px;
+  border: 50em;
+}
+
+main.content {
+  height: 1700px;
+  width: auto;
+}
+
+/*resets default margins*/
+.header{
+  font-family: 'Playfair Display', serif;
+  height: 125px;
+  width: auto;
+  margin: 0;
+}
+
+/*  */
+.header > .in-header {
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 130px;
+}
+
+.header > .in-header >.header-title {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 45px;
+}
+
+.login, .signup{
+  width: 150px;
+  padding: 15px;
+  float: right;
+  margin-left: 1.5em;
+  outline: none;
+  background-color: #fff;
+  color: #edc7b7;
+  font-size: 25px;
+  border-radius: 30px;
+}
+
+/* Modifies the "sign up" button when the mouse interacts */
+.signup > a:link ,a:visited {
+  color: #edc7b7;
+  text-decoration: none;
+}
+
+.signup > a:hover {
+  color: #2a5ac2;
+  text-decoration: none;
+}
+
+/* Modifies the "login" button when the mouse interacts */
+.login > a:link ,a:visited {
+  color: #edc7b7;
+  text-decoration: none;
+}
+
+.login > a:hover {
+  color: #2a5ac2;
+  text-decoration: none;
+}
+
+
+/*Sets up home class elements*/
+.home {
+  padding: 20px;
+  height: 1000px;
+  margin: 1em;
+}
+
+.home > p {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home > .home-paragraph {
+  float: left;
+  width: 500px;
+  font-size: 23px;
+  padding: 20px;
+  word-wrap: break-word;
+  text-justify: inter-word;
+}
+
+.home > h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: left;
+  width: 900px;
+  margin: 0;
+}
+
+.home > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  text-align: left;
+  width: 900px;
+  margin: 0;
+  padding: 15px;
+}
+
+.home > .home-image{
+  float: right;
+  width: 800px;
+  height: 800px;
+}
+
+.home > .home-image > img {
+  width: 800px;
+  height: 800px;
+}
+
+/* Sets up benefit class's elements */
+.benefits {
+  height: 1000px;
+  padding: 3em;
+  margin: 0;
+  background-color: #ffefe9;
+}
+
+.benefits > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: left;
+  padding: 20px;
+  width: 500px;
+  border: 1px;
+  margin: 0;
+}
+
+.benefits > .benefits-image > img {
+  float: left;
+  width: 800px;
+  height: 600px;
+}
+
+.benefits > .benefits-paragraph {
+  padding: 2em;
+  font-size: 25px;
+  width: 500px;
+  float: right;
+  text-justify: inter-word;
+  text-align: justify;
+  justify-content: right;
+}
+
+.classes {
+  padding: 8em 10em 10em 8em;
+  margin: 0;
+  height: 1000px;
+}
+
+.classes > h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: left;
+  padding: 1em;
+}
+
+/*Sets up image size for all images in the "classes" class*/
+img {
+  width: 250px;
+  height: 250px;
+  vertical-align: middle;
+}
+
+/*Makes first row*/
+.class-row1 {
+  display: flex;
+  margin: 25px 0;
+}
+
+/*Makes second row*/
+.class-row2 {
+  display: flex;
+  margin: 25px 0;
+}
+
+/*Adjusts images' spacing and size*/
+.img1 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex: calc(250/250);
+}
+
+.img2 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+.img3 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+.img4 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+/*resets default margins*/
+.img5 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+.img6 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+.img7 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+.img8 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  flex:calc(250/250);
+}
+
+/* Sets elements for "memberships" class */
+.memberships {
+  height: 900px;
+  padding: 2em;
+  margin: 0;
+  background-color: #ffefe9;
+  text-justify: inter-word;
+  text-align: justify;
+  justify-content: right;
+}
+
+.memberships > h2 {
+  align-content: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.memberships > .membership-titles-row {
+  display: flex;
+  margin-left: 14em;
+}
+
+.memberships > .membership-titles-row > .membership-title-1 {
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.memberships > .membership-titles-row > .membership-title-2 {
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 17em;
+}
+
+.memberships > .membership-titles-row > .membership-title-3 {
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 19em;
+}
+
+.memberships > .membership-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 9em;
+}
+
+.memberships > .membership-row > .membership-1 {
+  border-radius: 30px;
+  background-color: white;
+  height: 600px;
+  width: 300px;
+  align-items: center;
+}
+
+.memberships > .membership-row > .membership-1 > strong {
+  font-size: 25px;
+  padding: 35px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.memberships > .membership-row > .membership-1 > p {
+  font-size: 15px;
+  padding: 35px;
+  text-justify: inter-word;
+}
+
+.memberships > .membership-row > .membership-2 > strong {
+  font-size: 25px;
+  padding: 35px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.memberships > .membership-row > .membership-2 {
+  border-radius: 30px;
+  background-color: white;
+  height: 600px;
+  width: 300px;
+  align-items: center;
+  margin-left: 10em;
+}
+
+.memberships > .membership-row >.membership-2 > p{
+  font-size: 15px;
+  padding: 35px;
+  text-justify: inter-word;
+}
+
+.memberships > .membership-row > .membership-3 > strong {
+  font-size: 25px;
+  padding: 35px;
+  margin-left: 20px;
+  width: 50px;
+}
+
+.memberships > .membership-row >.membership-3 {
+  border-radius: 30px;
+  background-color: white;
+  height: 600px;
+  width: 300px;
+  align-items: center;
+  margin-left: 10em;
+}
+
+.memberships > .membership-row >.membership-3 > p{
+  font-size: 15px;
+  padding: 35px;
+  text-justify: inter-word;
+}
+
+.memberships > .enroll * {
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  outline: none;
+  background-color: #ac3b61;
+  color: white;
+  font-size: 25px;
+  border-radius: 30px;
+}
+
+.memberships > .enroll {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0em 0em 8em ;
+}
+
+.memberships > .enroll > .enroll-1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 3em ;
+}
+
+.memberships > .enroll > .enroll-2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 13em ;
+}
+
+.memberships > .enroll > .enroll-3{
+  display: flex;
+  flex-direction: row;
+  margin-left: 13em ;
+}
+
+
+/* GRID CSS BELOW*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 2.9fr 0.3fr;
+  grid-template-areas: "header header header header" "content content content content" "footer footer footer footer";
+}
+
+.header { grid-area: header; }
+
+.content { grid-area: content; }
+
+.footer { grid-area: footer; }
+
+/* RESPONSIVE CSS BELOW */
+@media screen and (max-width: 1486px) {
+  .header {
+    width: auto;
+    border-radius: 0;
+  }
+
+  .content {
+    width: 100%;
+
+  }
+
+  .header > .in-header > button {
+    width: 70px;
+    padding: 8px;
+    float: right;
+    margin-left: 10px;
+    outline: none;
+    background-color: #fff;
+    color: #edc7b7;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header" "home home home home" "benefits benefits benefits benefits" "classes classes classes classes" "memberships memberships memberships memberships" "instructors instructors instructors instructors" "footer footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .home { grid-area: home; }
+  
+  .benefits { grid-area: benefits; }
+  
+  .classes { grid-area: classes; }
+  
+  .memberships { grid-area: memberships; }
+}

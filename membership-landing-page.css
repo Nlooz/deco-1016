@@ -1,0 +1,187 @@
+/*resets default margins*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    font-family: 'Playfair Display', serif;
+    height: 125px;
+    width: auto;
+    margin: 0;
+    color: white;
+}
+  
+.header > .in-header {
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 130px;
+}
+  
+.header > .in-header >.header-title {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 45px;
+}
+
+.header > .in-header >.header-title > a:link,a:visited{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:hover{
+    font-family: 'Playfair Display', serif;
+    color: rgb(37, 87, 252);
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:link{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.signout{
+    width: 150px;
+    padding: 15px;
+    float: right;
+    margin-left: 1.5em;
+    outline: none;
+    background-color: #fff;
+    color: #edc7b7;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
+.signout > a:link ,a:visited {
+color: #edc7b7;
+text-decoration: none;
+}
+
+.signout > a:hover {
+color: #2a5ac2;
+text-decoration: none;
+}
+
+body {
+    background-color: white;
+    color: #123c69;
+}
+
+
+h1 {
+    padding:2em;
+    text-align: center;
+}
+
+h2 {
+    color: #123c69;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.menu-column {
+    background-color: #eee2dc;
+    width: 300px;
+    height: 1200px;
+}
+
+/*resets default margins*/
+.class-row1 {
+    display: flex;
+    margin: 25px 0;
+    padding-top: 3em;
+}
+
+/*resets default margins*/
+.class-row2 {
+    display: flex;
+    margin: 25px 0;
+}
+
+/*resets default margins*/
+.img1 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex: calc(150/150);
+}
+/*resets default margins*/
+.img2 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+/*resets default margins*/
+.img3 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+/*resets default margins*/
+.img4 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+/*resets default margins*/
+.img5 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+/*resets default margins*/
+.img6 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+/*resets default margins*/
+.img7 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+
+/*resets default margins*/
+.img8 {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    flex:calc(150/150);
+}
+
+/* GRID CSS BELOW */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1auto 1auto 1fr 1auto 1auto;
+    grid-template-rows: 1auto 1auto 1auto 1auto 1auto;
+    grid-template-areas: "header header header header header" "menu-column menu-column class class class" "menu-column menu-column classes classes classes" "menu-column menu-column classes classes classes" "menu-column menu-column classes classes classes";
+}
+
+.header { grid-area: header; }
+
+.menu-column { grid-area: menu-column; }
+
+.class { grid-area: class; }

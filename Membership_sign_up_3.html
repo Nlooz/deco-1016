@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway&display=swap" rel="stylesheet">
+     <link href="membership-signup-3.css" rel="stylesheet">
+</head>
+
+<div class="header">
+     <div class="in-header">
+          <div class="header-title">
+               <a href = "index.html">Vilates</a>
+          </div>  
+     </div>
+</div>
+
+<body>
+     <!-- Progress bar to show how much more the user has to do for the onboarding process -->
+     <div class="ldBar" data-value="80"></div>
+     <div id="progress-bar"></div>
+     <!-- User sets up payment for their membership plan -->
+     <div class = "payment-h1">
+          <h1>Set up payment method</h1>
+     </div>
+
+     <!-- Below is a form where the user enters their credit card details  -->
+     <form>
+          <div class = "form-group">
+               <label for = "name-card">Name on card</label>
+               <input type = "text" id = "name-card" name = "cardname" placeholder ="EG: Clarence Smith">
+               <div class="messages"></div>
+          </div>
+          <div class = "form-group">
+               <label for = "num-card">Credit card number</label>
+               <input type = "text" id = "num-card" name = "cardnum" placeholder ="EG: 1234-5567-7789-9900">
+               <div class="messages"></div>
+          </div>
+          <div class = "form-group">
+               <label for = "exp-card">Date of exp</label>
+               <input type ="date" id = "exp-card" name = "cardexp">
+               <div class="messages"></div>
+          </div>
+
+          <div class = "form-group">
+               <label for = "cvv">CVV</label>
+               <input type ="texr" id = "cvv-card" name = "cardcvv" placeholder = "CVV">
+               <a href>What is a CVV?</a>
+               <div class="messages"></div>
+          </div>
+     </form>
+
+     <!-- The next button takes them to their newly created account, the back button takes them back to the membership page -->
+     <div class = "back-next-buttons">
+          <div class = "back"><a href = "Membership_sign_up_2.html">Back</a></div>
+          <div class = "next"><a href = "Membership_Landing.html">Next</div>
+     </div>
+
+<script type="text/javascript" src="loading-bar.js"></script>
+</body>
+</html>

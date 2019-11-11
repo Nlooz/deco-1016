@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display|Raleway&display=swap" rel="stylesheet">
+     <link href="membership-signup-2.css" rel="stylesheet">
+</head>
+
+<div class="header">
+     <div class="in-header">
+          <div class="header-title"><a href = "index.html">Vilates</a></div>  
+     </div>
+</div>
+
+<body>
+    <!-- Progress bar -->
+    <div class="ldBar" data-value="30"></div>
+    <div id="progress-bar"></div>
+
+    <!-- Structure for membership plan selection-->
+    <div class = "memberships">
+        <h1>Choose your membership plan</h1>
+
+        <!-- form groups and elements -->
+        <div class="form-group">
+            <!-- Drop menu to select type of currency the user want to pay -->
+            <label for = "currency">Select your currency</label>
+            <select id = "currency" name = "currency">
+                <option value="">Choose your currency</option>
+                <option value="AUD">Australia</option>
+                <option value="USD">United States</option>
+                <option value="CAD">Canadda</option>
+                <option value="SGD">Singapore</option>
+            </select>
+            <div class = "messages"></div>
+        </div> 
+
+        <!-- Titles to inform the user the different types of membership plans -->
+        <div class = "membership-titles-row">
+            <div class = "membership-title-1">
+                <h3>Monthly</h3>
+            </div>
+            <div class = "membership-title-2">
+                <h3>Quarterly</h3>
+            </div>
+            <div class = "membership-title-3">
+                <h3>Yearly</h3>
+            </div>
+        </div>
+        
+        <!-- Shows how much each plan is and further explainations of the benefits the user will get with each plan -->
+        <div class = "membership-row">
+            <div class = "membership-1">
+                <strong>$10 per month</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <strong>You will receive:</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+            
+            <div class = "membership-2">
+                <strong>$8.50 per month</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <strong>You will receive:</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+            
+            <div class = "membership-3">
+                <strong>$5 per month</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+                <strong>You will receive:</strong>
+                <p>            
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
+            </div>
+        </div>
+
+        <!-- Below creates the checkboxes, which allows user to select which plan they want -->
+        <form>
+            <div class="form-group">
+                <label for="checkbox-membership"></label>
+                <input type="checkbox" id="checkbox-membership" name="membership-1" value = "$10.00">Enroll<br>
+                <input type="checkbox" id="checkbox-membership" name="membership-2" value = "$8.50">Enroll<br>
+                <input type="checkbox" id="checkbox-membership" name="membership-3" value = "$5.00">Enroll<br>
+                <div class="messages"></div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Buttons that allow the user to move to the next webpage or go back to a previous webpage -->
+    <div class = "back-next-buttons">
+        <div class = "back"><a href = "Membership_sign_up_1.html">Back</a></div>
+        <div class = "next"><a href = "Membership_sign_up_3.html">Next</div>
+    </div>
+
+<script type="text/javascript" src="loading-bar.js"></script>
+</body>
+</html>

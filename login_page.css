@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.header {
+    height: 135px;
+}
+
+.header > .in-header>.header-title{
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 130px;
+}
+
+.header > .in-header >.header-title > a:link,a:visited{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:hover{
+    font-family: 'Playfair Display', serif;
+    color: rgb(37, 87, 252);
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    color: #123c69;
+}
+
+.content {
+    width: 720px
+}
+
+form * {
+    box-sizing: border-box;
+}
+
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form > .form-group > label{
+    text-align: right;
+    padding-right: 20px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 120px;
+    max-width: 120px;
+  }
+
+.content > form .form-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 7em;
+  }
+
+.content > h1 {
+    padding: 1em;
+    text-align: center;
+}
+
+.content > .signup > a{
+    width: 200px;
+    padding: 25px;
+    align-items: center;
+    outline: none;
+    background-color: #edc7b7;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-left: 11em;
+    margin-top: 5em;
+}
+
+
+.content > form .form-group input {
+    padding: 30px;
+    width: 300px;
+    height: 100px;
+    background-color: #edc7b7;
+    border: none;
+    border-radius: 50px;
+}
+
+.img > .login-image > img {
+    width: 720px;
+    height: 720px;
+    margin: 0;
+}
+
+.content > a {
+    color: white;
+    text-decoration: none;
+}
+
+/* GRID CODE BELOW */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1auto 1auto 1auto 1auto 1auto 1auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header header header header header header" "img img img content content content" "img img img content content content" "img img img content content content";
+  }
+  
+  .header { grid-area: header; }
+  
+  .content { grid-area: content; }
+  
+  .img { grid-area: img; }

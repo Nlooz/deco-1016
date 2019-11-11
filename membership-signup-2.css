@@ -1,0 +1,276 @@
+/* To structure the body and html */
+html,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: white;
+    color: #123c69;
+}
+
+/* CSS to modify the "Vilates" home button */
+.header > .in-header>.header-title{
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 130px;
+}
+
+/* CSS to modify the "Vilates" home button as the mouse hovers over it*/
+.header > .in-header >.header-title > a:link,a:visited{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:hover{
+  font-family: 'Playfair Display', serif;
+  color: rgb(37, 87, 252);
+  text-decoration: none;
+}
+
+form * {
+    box-sizing: border-box;
+}
+
+form .form-group > option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 40px;
+  padding: 9em;
+}
+
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 9em;
+    padding: 50px;
+    font-size: 20px;
+}
+
+form .form-group > label{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 120px;
+    max-width: 400px;
+  }
+
+form .form-group > select{
+  text-align: left;
+  padding: 20px;
+  font-size: 40px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 120px;
+  max-width: 400px;
+}
+
+form .form-group > input {
+    display: flex;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: #edc7b7;
+    border: none;
+    border-radius: 50px;
+}
+
+.memberships {
+    height: 1000px;
+    padding: 2em;
+    margin: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    text-align: center;
+    text-justify: inter-word;
+    text-align: justify;
+    justify-content: right;
+  }
+  
+  .memberships > h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+  }
+  
+  .memberships > .membership-titles-row {
+    display: flex;
+    margin-left: 9em;
+    font-size: 25px;
+  }
+  
+  .memberships > .membership-titles-row > .membership-title-1 {
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+ 
+  }
+  
+  .memberships > .membership-titles-row > .membership-title-2 {
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 17em;
+  }
+  
+  .memberships > .membership-titles-row > .membership-title-3 {
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18em;
+  }
+  
+  /* CSS used to modify the */
+  .memberships > .membership-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 9em;
+  }
+  
+  .memberships > .membership-row > .membership-1 {
+    border-radius: 30px;
+    background-color: #edc7b7;
+    height: 600px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  .memberships > .membership-row > .membership-1 > strong {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .memberships > .membership-row > .membership-1 > p {
+    font-size: 15px;
+    padding: 35px;
+    text-justify: inter-word;
+  }
+  
+  .memberships > .membership-row > .membership-2 > strong {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .memberships > .membership-row > .membership-2 {
+    border-radius: 30px;
+    background-color: #edc7b7;
+    height: 600px;
+    width: 300px;
+    align-items: center;
+    margin-left: 10em;
+  }
+  
+  .memberships > .membership-row >.membership-2 > p{
+    font-size: 15px;
+    padding: 35px;
+    text-justify: inter-word;
+  }
+  
+  .memberships > .membership-row > .membership-3 > strong {
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .memberships > .membership-row >.membership-3 {
+    border-radius: 30px;
+    background-color: #edc7b7;;
+    height: 600px;
+    width: 300px;
+    align-items: center;
+    margin-left: 10em;
+  }
+  
+  /* CSS to modify the "p" element in the membership-3 class */
+  .memberships > .membership-row >.membership-3 > p{
+    font-size: 15px;
+    padding: 35px;
+    text-justify: inter-word;
+  }
+
+/* CSS to modify the "back" button */
+  .back-next-buttons > .back{
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center;
+
+}
+
+/* CSS to modify the "next" button */
+.back-next-buttons >.next {
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center; 
+    margin-left: auto;
+    margin-bottom: 50px;
+} 
+
+/* CSS for when the mouse interacts with the "back" button */
+.back-next-buttons > .back > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .back > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}
+
+/* CSS for when the mouse interacts with the "next" button */
+.back-next-buttons > .next > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .next > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}

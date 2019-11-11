@@ -1,0 +1,169 @@
+html,body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+#container {
+    margin: 20px;
+    width: auto;
+    height: 8px;
+    position: relative;
+  }
+
+.header {
+    height: 135px;
+}
+
+.header > .in-header>.header-title{
+    background-color: #edc7b7;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    color: white;
+    text-align: left;
+    padding: 15px ;
+    border: solid #edc7b7 20px;
+    height: 90px;
+}
+
+.header > .in-header >.header-title > a:link,a:visited{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header > .in-header >.header-title > a:hover {
+    font-family: 'Playfair Display', serif;
+    color: rgb(37, 87, 252);
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.content > .signup > a{
+    width: 200px;
+    padding: 25px;
+    align-items: center;
+    outline: none;
+    background-color: #edc7b7;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+form * {
+    box-sizing: border-box;
+}
+
+form .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 50px;
+}
+
+form .form-group > label{
+    text-align: left;
+    padding: 20px;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 120px;
+    max-width: 200px;
+  }
+
+form .form-group input, button {
+    display: flex;
+    font-size: 30px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: #edc7b7;
+    border: none;
+    border-radius: 50px;
+}
+
+body {
+    background-color: white;
+    color: #123c69;
+}
+
+.back-next-buttons > .back , .next{
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center;
+
+}
+
+.back-next-buttons >.next {
+    display: block;
+    width:50px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: #ac3b61;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50px;
+    text-align: center; 
+    margin-left: auto;
+    margin-bottom: 50px;
+} 
+
+.back-next-buttons > .back > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .back > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}
+
+.back-next-buttons > .next > a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.back-next-buttons > .next > a:hover {
+    color: #2b3cc2;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+    main {
+      width: auto;
+      border-radius: 0;
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    form > .form-group > label{
+      flex: 0 0 100%;
+      text-align: left;
+      padding: 10px;
+    }
+  
+    form > .form-group > label + * {
+        flex: 0 0 100%;
+    }
+}
